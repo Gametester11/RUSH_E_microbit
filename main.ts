@@ -201,3 +201,7 @@ input.onGesture(Gesture.LogoDown, function () {
         `)
     basic.clearScreen()
 })
+input.onGesture(Gesture.ThreeG, function () {
+    basic.showIcon(IconNames.Asleep)
+    basic.clearScreen()
+})
