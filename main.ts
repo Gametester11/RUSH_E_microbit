@@ -111,9 +111,6 @@ input.onGesture(Gesture.TiltLeft, function () {
         `)
     basic.clearScreen()
 })
-input.onGesture(Gesture.ScreenUp, function () {
-    basic.showString("I see the roof")
-})
 input.onPinPressed(TouchPin.P2, function () {
     basic.showString("SECRET FOUND")
     basic.showString("heads or tails 3 2 1")
