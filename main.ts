@@ -201,6 +201,9 @@ input.onGesture(Gesture.LogoDown, function () {
         `)
     basic.clearScreen()
 })
+input.onLogoEvent(TouchButtonEvent.Touched, function () {
+    music.setBuiltInSpeakerEnabled(true)
+})
 input.onGesture(Gesture.ThreeG, function () {
     basic.showIcon(IconNames.Asleep)
     basic.clearScreen()
